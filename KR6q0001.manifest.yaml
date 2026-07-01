@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6q0001/v1
+canonical_location: https://kanripo.org/bkk/KR6q0001/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 曆代法寶記
+  identifiers:
+    alt_id:
+    - T51n2075
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T51/T51n2075.xml
+    old_id: T51n2075
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6q0001_000.yaml, hash: 'sha256:f331575f97fdce9c9991e7cf6eaf13b45765cf24ad87e3e32e9242d4ee47fd87'}
+  - {seq: 1, filename: KR6q0001_001.yaml, hash: 'sha256:4225bad76359fc3f5a830aa474e1acc2cfb5c2e00735131b198d46854560d733'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6q0001_001.markers.yaml, hash: 'sha256:e97e12e5c40da395935faf2d168a9c67d9a55e456e3894b72ae926f584711ef2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6q0001_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 25140
+  label: 曆代法寶記
+  type: juan
+  level: 1
+hash: sha256:fbf9004d7de46c00b30a0bf41927fdd3383dac0675cbc460eea4115768e1c66f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

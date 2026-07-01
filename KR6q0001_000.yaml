@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6q0001/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 曆代法寶記
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T51/T51n2075.xml
+    old_id: T51n2075
+hash: sha256:f331575f97fdce9c9991e7cf6eaf13b45765cf24ad87e3e32e9242d4ee47fd87
